@@ -208,7 +208,7 @@ Performs traditional radiomics-based classification with:
 
 ## Results
 
-### Main Results (External Test Set)
+### Main Results (Internal Test Set)
 
 | Model | Params | Acc ↑ | QWK ↑ | AUC ↑ | F1 ↑ | MAE ↓ |
 |-------|--------|-------|-------|-------|------|-------|
@@ -220,7 +220,7 @@ Performs traditional radiomics-based classification with:
 | SwinTransformer3D | 2.28M | 0.61 | 0.54 | 0.69 | 0.58 | 0.43 |
 | DenseNet3D | 0.56M | 0.59 | 0.51 | 0.67 | 0.56 | 0.46 |
 
-> **Key:** ↑ higher is better | ↓ lower is better. ProDER achieves **0.81 Macro-AUC** on external validation, outperforming all baselines by a clear margin.
+> **Key:** ↑ higher is better | ↓ lower is better. ProDER achieves **0.81 Macro-AUC** on internal validation, outperforming all baselines by a clear margin.
 
 ### Ablation Study
 
